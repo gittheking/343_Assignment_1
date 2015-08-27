@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Console()
+comment1.params=evt
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\r\n\ Method\ to\ add\ actions\ to\ the\ User\ Login\ GUI\ and\ command\ prompt\ GUI.\r\n\ @param\ ActionEvent\ evt,\ actions\ for\ this\ class\ include\ pushing\ the\ submit\r\n\ \ \ \ \ \ \ \ button\ and\ the\ entering\ commands\ into\ the\ command\ prompts\ textfield\r\n\ @return\ void\r\n
+comment2.params=s
+comment2.target=java.lang.String\ classify(java.lang.String)
+comment2.text=\r\n\ Method\ to\ determine\ and\ execute\ the\ appropriate\ method\ for\ the\ value\ entered\r\n\ into\ the\ console\r\n\ @param\ String\ s\ is\ the\ string\ entered\ into\ the\ command\ prompt\r\n\ @return\ returns\ a\ string\ of\ the\ action\ that\ was\ executed\r\n
+comment3.params=s
+comment3.target=boolean\ storeDir(java.lang.String)
+comment3.text=\r\n\ Method\ stores\ newly\ created\ directory\ in\ the\ directories\ array\r\n\ @param\ class\ object\ of\ FoldersNFiles\ class,\ directory\ object\ specifically.\r\n\ @return\ boolean\ value\ of\ true\ or\ false\ is\ returned.\ true\ determines\ that\r\n\ \ \ \ \ \ \ \ \ the\ directory\ was\ able\ to\ be\ stored,\ false\ if\ not.\r\n
+comment4.params=s
+comment4.target=boolean\ storeF(java.lang.String)
+comment4.text=\r\n\ Method\ stores\ newly\ created\ File\ in\ the\ files\ array\r\n\ @param\ class\ object\ of\ FoldersNFiles\ class,\ file\ object\ specifically.\r\n\ @return\ boolean\ value\ of\ true\ or\ false\ is\ returned.\ true\ determines\ that\r\n\ \ \ \ \ \ \ \ \ the\ fiel\ was\ able\ to\ be\ stored,\ false\ if\ not.\r\n
+comment5.params=s
+comment5.target=void\ remDir(java.lang.String)
+comment5.text=\r\n\ Method\ the\ remove\ a\ directoy\ from\ the\ memory\r\n\ @param\ string\ s\ contains\ the\ name\ of\ the\ directory\ \r\n\ @return\ returns\ true\ or\ false\ determining\ if\ the\ directory\ chosen\ to\ delete\ \r\n\ \ \ \ \ \ \ \ \ exists\ in\ memory\r\n
+comment6.params=s
+comment6.target=int\ findD(java.lang.String)
+comment6.text=\r\n\ Method\ to\ find\ the\ directory\ that\ matched\ the\ String\ s\r\n\ @param\ String\ s\ represents\ the\ name\ of\ the\ directory\ being\ located\r\n\ @return\ returns\ the\ index\ value\ of\ directory\ being\ searched,\ if\ -1\r\n\ \ \ \ \ \ \ \ \ it\ means\ it\ is\ not\ found.\r\n
+comment7.params=s
+comment7.target=int\ findF(java.lang.String)
+comment7.text=\r\n\ Method\ to\ find\ the\ file\ that\ matched\ the\ String\ s\r\n\ @param\ String\ s\ represents\ the\ name\ of\ the\ file\ being\ located\r\n\ @return\ returns\ the\ index\ value\ of\ directory\ being\ searched,\ if\ -1\r\n\ \ \ \ \ \ \ \ \ it\ means\ it\ is\ not\ found.\r\n
+numComments=8
